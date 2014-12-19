@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="description" content="" >
+        <meta name="viewport" content="width=device-width">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- container -->
+        <div id="container" class="container">
+            <h1>similar webapp</h1>
+            <div id="sidebar" class="col-md-4" style="padding: 15px">
+                <div id="search" class="well" style="height: 120px">
+                    <div class="input-group">
+                        <input type="url" class="form-control" placeholder="Enter website">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go</button>
+                        </span>
+                    </div>
+                </div>
+                <div id="history" class="well">
+                    <h4>History</h4>
+                    <ul id="historyList" class="nav nav-pills nav-stacked"></ul>
+                </div>
+            </div>
+            <div id="main" class="col-md-8" style="padding: 15px">
+                <div id="head" class="well" style="height: 120px">
+                    <h4><span class="glyphicon glyphicon-arrow-left"></span> Start by entering website's URL</h4>
+                </div>
+
+                <div id="similar" class="well hide">
+                    <h4>Similar Sites</h4>
+                    <ul id="similarList" class="nav nav-pills"></ul>
+                    <a id="showMore" class="hide" style="text-align: center;width: 100%;display: block;cursor: pointer;">show more (<span id="left"></span>)</a>
+                </div>
+
+                <div id="preview" class="well hide">
+                    <h4>Site Preview</h4>
+                    <iframe id="iframe" src="http://" style="width:100%; height:400px"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- /container -->
+    </body>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.3.1/lodash.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+    <script src="js/main.js"></script>
+
+</html>
