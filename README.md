@@ -2,6 +2,7 @@ similarweb
 ==========
 
 Task for some company to build site analytics demo, working solely on client side using sessionStorage for saving search history, getting data from SimilarWeb API
+
 Task requirements are given in requirements.pdf.
 
 
