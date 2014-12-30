@@ -1,8 +1,8 @@
-angular.module('test', []).directive('test', function () {
+angular.module('test').directive('test', function () {
   return {
-    templateUrl: '../test.html'
+    templateUrl: '../test.html',
     controller: function($scope) {
-    $scope.greeting = 'test';
+      $scope.greeting = 'test';
     }
   };
 });
